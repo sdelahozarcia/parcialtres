@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Título de página -->
+        <title>Cheesecake - Postrelandia </title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Botón WhatsApp flotante -->
+        <aside id="boton-wp">
+            <a href="https://api.whatsapp.com/send?phone=573014069376" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Menú Responsive -->
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="cheesecake.html">Cheesecake</a>
+                <a href="napoleon.html">Napoleon</a>
+                <a href="tiramisu.html">Tiramisu</a>
+            </nav>
+        </aside>
+
+        <!-- Componente Header con Logo al centro -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/BF1.png">
+                    </a>
+                </figure>
+            </article>
+        </header>
+
+        <main>
+            <section id="banner-superior">
+                <article>
+                    <h1>Cheesecake</h1>
+                </article>
+            </section>
+            <br>
+            <br>
+            <hr>
+            <section id="ficha-producto">
+                <article>
+                    <figure class="postre1"></figure>
+
+                    <div id="info-producto">
+                        <h2>Cheesecake</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <h5>$ 60.000</h5>
+                        <a href="#" target="_blank">Comprar</a>
+                    </div>
+                </article>
+            </section>
+            <hr>
+        </main>
+
+        <!-- Componente Footer de 1 Columna -->
+        <footer>
+            <div id="ancla-footer"></div>
+            <article>
+                <div id="superior-footer">
+                    <div class="cajas-footer">
+                        <h6>Encuéntranos en...</h6>
+
+                        <!-- Componente Botones Redes Sociales -->
+                        <nav id="links-redes">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div id="inferior-footer">
+                  
+                </div>
+            </article>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

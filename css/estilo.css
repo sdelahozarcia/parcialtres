@@ -1,0 +1,826 @@
+/* Patrones Globales */
+
+/* Eliminar margen por defecto del BODY */
+body { 
+    margin: 0; 
+    overflow-x: hidden; 
+}
+
+
+/* Tipografía Única: Quicksand */
+h1, h2, h3, h4, h5, h6, p, a, span, form, input, select, textarea, option, button, div { 
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Propiedad display: block; 
+a todas las cajas de estructura para que se comporten como cajas */
+header, main, section, footer, aside, article, figure, figcaption, nav, div { 
+    display: block; 
+}
+
+
+/* Quitar margen que traen por defecto los títulos, subtítulos y párrafos */
+h1, h2, h3, h4, h5, h6, p, figure { 
+    margin: 0; 
+}
+
+
+
+
+/* Estilo Propio */
+
+/* Componente Menú Responsive */
+
+
+
+/* Componente Header con Logo y Menú */
+
+
+body { 
+    background: white; 
+    height: 100%; 
+}
+
+
+aside#boton-wp { 
+    width: 53px; 
+    height: 45px; 
+    margin: 0; 
+    float: none; 
+    position: fixed; 
+    right: 15px; 
+    bottom: 15px; 
+    z-index: 99991; 
+}
+
+aside#boton-wp a { 
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+    float: none; 
+    position: relative; 
+    display: block; 
+    background: #942b47; 
+    border-radius: 50%; 
+    text-align: center; 
+    padding: 10px 0; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#boton-wp a i { 
+    font-size: 2em; 
+    line-height: 1em; 
+    color: #fff; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#boton-wp a:hover { 
+    background: #f4e9ff; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#boton-wp a:hover i { 
+    color: rgb(255, 255, 255); 
+    transition: all 0.3s ease-in; 
+}
+
+
+aside#menu-moviles { 
+    width: 300px; 
+    height: 100%; 
+    display: block; 
+    margin: 0; 
+    float: none; 
+    position: fixed; 
+    right: -290px; 
+    top: 0; 
+    z-index: 99999; 
+    background: rgba(250, 250, 250, 0.986); 
+}
+
+aside#menu-moviles a#abrir-menu { 
+    height: auto; 
+    margin: 0; 
+    float: none; 
+    position: absolute; 
+    top: 25px; 
+    left: -40px; 
+    display: block; 
+    text-decoration: none; 
+    color: rgb(247, 230, 255); 
+    font-weight: 600; 
+    font-size: 2.5em; 
+    line-height: 1em; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-moviles a#abrir-menu:hover { 
+    color: rgb(244, 230, 255); 
+    transition: all 0.3s ease-in }
+
+
+aside#menu-moviles a#cerrar-menu { 
+    height: auto; 
+    margin: 0; 
+    float: none; 
+    position: absolute; 
+    top: 25px; 
+    left: -35px; 
+    display: none; 
+    text-decoration: none; 
+    color: rgb(87, 107, 133); 
+    font-weight: 600; 
+    font-size: 2.5em; 
+    line-height: 1em; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-moviles a#cerrar-menu:hover { 
+    color: rgb(243, 230, 255); 
+    transition: all 0.3s ease-in; 
+}
+
+
+aside#menu-moviles nav { 
+    width: 50%; 
+    height: auto; 
+    margin: 15% 10%; 
+    float: none; 
+    position: relative; 
+}
+
+aside#menu-moviles nav a { 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; 
+    color: #942b47;
+    font-weight: 600; 
+    font-size: 25px; 
+    padding: 10px 0; 
+    text-decoration: none; 
+    transition: all 0.3s ease-in; 
+}
+
+aside#menu-moviles nav a:hover { 
+    color: rgb(65, 24, 73); 
+    transition: all 0.3s ease-in; 
+}
+
+
+header { 
+    width: 100%; 
+    height: 100px; 
+    margin: 0; 
+    float: none; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 99990; 
+    overflow: hidden; 
+    background: #750f1c; 
+}
+
+header article { 
+    width: 100%; 
+}
+
+header article figure { 
+    margin: 0 auto; 
+    width: 300px; 
+    padding-top:16px;}
+
+header article figure a img { 
+    width: 300px; 
+}
+
+article figure.postre1{
+    background: url(../img/cheesecake.jpeg);
+    background-size: cover;
+}
+
+article figure.animal2{
+    background: url(../img/conejo.jpg);
+    background-size: cover;
+}
+
+article figure.postre2{
+    background: url(../img/napoleon.jpeg);
+    background-size: cover;
+}
+
+article figure.personaje2{
+    background: url(../img/mymelody.jpg);
+    background-size: cover;
+}
+
+article figure.postre3{
+    background: url(../img/tiramisu.jpeg);
+    background-size: cover;
+}
+
+article figure.comida2{
+    background: url(../img/panfrances.jpg);
+    background-size: cover;
+}
+
+/* Caja Main */
+main { 
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    float: none; 
+    position: relative; 
+}
+
+
+/* index */
+main section#zona-slider { 
+    width: 100%; 
+    height: 100vh; 
+    margin: 0 auto 50px auto; 
+    float: none; 
+    position: relative; 
+    margin-bottom: 0px;
+}
+
+main section#zona-slider article.slick-slider { 
+    width: 100%; 
+    height: 100vh; 
+    margin: 0 auto 20px auto; 
+    float: none; 
+    position: relative; 
+}
+
+main section#zona-slider article.slick-slider figure h3 { 
+    text-align: center; 
+    font-size: 5em; 
+    font-family: 'Roboto Slab', serif;
+    margin: 290px 0 25px 0; 
+    color: #ffffff; 
+    
+}
+
+.slick-track{
+    text-align: center;
+}
+
+main section#zona-slider article.slick-slider figure a {  
+    text-decoration: none; 
+    font-size: 2em; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700; 
+    color: #ffffff; 
+    background: #942b47; 
+    border-radius: 5px;
+    padding: 20px 20px; 
+}
+
+main section#zona-slider article.slick-slider figure a:hover { 
+    background: #415185; 
+    transition: all 0.3s ease-in; 
+}
+
+main section#zona-slider article.slick-slider figure#slide-01 { 
+    width: 100%; 
+    height: 90vh; 
+    margin: 0; 
+    float: left; 
+    position: relative; 
+    background: url('../img/cheesecake.jpeg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#zona-slider article.slick-slider figure#slide-02 { 
+    width: 100%; 
+    height: 90vh; 
+    margin: 0; 
+    float: left; 
+    position: relative; 
+    background: url('../img/napoleon.jpeg') no-repeat; 
+    background-size: cover; 
+    background-position: bottom -100px right 0px; 
+}
+
+main section#zona-slider article.slick-slider figure#slide-03 { 
+    width: 100%; 
+    height: 90vh; 
+    margin: 0; 
+    float: left; 
+    position: relative; 
+    background: url('../img/tiramisu.jpeg') no-repeat; 
+    background-size: cover; 
+    background-position: bottom -220px right 0px;}
+
+
+main section#categorias { 
+    width: 100%; 
+    position: relative; 
+    overflow: hidden; 
+    margin-bottom: 20px;}
+
+main section#categorias article { 
+    width: 96%; 
+    margin: 0 auto; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+main section#categorias article a { 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    width: 32%; 
+    height: 300px; 
+    margin-right: 2%; 
+    float: left; 
+}
+
+main section#categorias article a:last-child { 
+    margin: 0;}
+
+main section#categorias article a.caja1 { 
+    background: url('../img/conejo.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias article a.caja2 { 
+    background: url('../img/personajes.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias article a.caja3 { 
+    background: url('../img/panfrances.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias article a h3 { 
+    margin:0 auto; 
+    font-size: 2em; 
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff; 
+    
+    
+    z-index: 2;}
+
+main section#categorias article a div.capa-oscura1 { 
+    width: 32%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background: rgb(100, 19, 121 / 35%);
+    transition: all 0.3s ease-in;}
+
+main section#categorias article a div.capa-oscura2 { 
+    width: 32%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto 0 34%; 
+    float: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background: rgb(100, 19, 121 / 35%) ;
+    transition: all 0.3s ease-in;
+}
+
+main section#categorias article a div.capa-oscura3 { 
+    width: 32%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto 0 68%; 
+    float: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background: rgb(175, 106, 106 / 35%) ;
+    transition: all 0.3s ease-in;}
+
+main section#categorias article a:hover div.capa-oscura1,main section#categorias article a:hover div.capa-oscura2,main section#categorias article a:hover div.capa-oscura3 { 
+    background: rgb(0 0 0 / 75%); 
+    transition: all 0.3s ease-in; 
+}
+
+
+main section#productos { 
+    width: 100%; 
+    margin: 130px 0 20px 0px;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+main section#productos article { 
+    width: 70%; 
+    margin: 0 auto 50px auto; 
+    margin: 50px 10px;
+}
+
+main section#productos article h3 { 
+    font-size: 2em; 
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5px;}
+
+main section#productos article a { 
+    text-decoration: none; 
+    display: flex; 
+    width: 100%; 
+    margin-right: 4%; 
+    height: 330px; 
+    float: left; 
+}
+
+main section#productos article a:last-child { 
+    float:none; 
+    margin: 0;}
+
+main section#productos article a span { 
+    width: 100%; 
+    background: rgb(0 0 0 / 35%); 
+}
+
+main section#productos article a:hover span { 
+    background: rgb(0 0 0 / 75%); 
+    transition: all 0.3s ease-in;}
+
+main section#productos article a span h3 { 
+    font-size: 2em; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900; 
+    color: #ffffff; 
+    margin: 180px 0 0 20px; 
+    position: relative; 
+    z-index: 2;}
+
+main section#productos article a span p { 
+    font-size: 1.25em; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900; 
+    color: #ffffff; 
+    margin: 0 0 0 20px; 
+    position: relative; 
+    z-index: 2;}
+
+main section#productos article.Animales a.animal1 { 
+    background: url('../img/cheesecake.jpeg') no-repeat; 
+    background-size: cover; 
+}
+
+main section#productos article.Animales a.animal2 { 
+    background: url('../img/conejo.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#productos article.Personajes a.personaje1 { 
+    background: url('../img/napoleon.jpeg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#productos article.Personajes a.personaje2 { 
+    background: url('../img/mymelody.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#productos article.Comida a.comida1 { 
+    background: url('../img/tiramisu.jpeg') no-repeat center; 
+    background-size: cover;}
+
+main section#productos article.Comida a.comida2 { 
+    background: url('../img/panfrances.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+
+/*Categorias*/
+main hr { 
+    width: 80%; 
+    margin-bottom: 50px; 
+}
+
+main section#banner-superior { 
+    width: 100%; 
+    height: 200px; 
+    margin-top: 80px; 
+    background: url('../img/wpp.jpg') repeat; 
+    background-size: cover; 
+}
+
+main section#banner-superior article { 
+    width: 100%; 
+    height: 200px; 
+    display: flex; 
+    align-items: center; 
+    background: rgb(0 0 0 / 35%); 
+}
+
+main section#banner-superior article h1 { 
+    font-size: 5em; 
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;  
+    margin: 0 auto; 
+    font-style:round;}
+
+
+main section#categorias-prodt { 
+    width: 100%; 
+    position: relative; 
+    overflow: hidden; 
+    margin-bottom: 200px;}
+
+main section#categorias-prodt article { 
+    width: 70%; 
+    margin: 0 auto; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+main section#categorias-prodt article a { 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    width: 48%; 
+    height: 300px; 
+    margin-right: 4%; 
+    float: left; 
+}
+
+main section#categorias-prodt article a:last-child { 
+    margin: 0;}
+
+main section#categorias-prodt article a.caja1 { 
+    background: url('../img/conejo.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias-prodt article a.caja2 { 
+    background: url('../img/personajes.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias-prodt article a.caja3 { 
+    background: url('../img/panfrances.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#categorias-prodt article a h3 { 
+    margin:0 auto; 
+    font-size: 2em; 
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff; 
+    
+    
+    z-index: 2;}
+
+main section#categorias-prodt article a div.capa-oscura1 { 
+    width: 48%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto; 
+    float: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background: rgb(0 0 0 / 35%); 
+    transition: all 0.3s ease-in;}
+
+main section#categorias-prodt article a div.capa-oscura2 { 
+    width: 48%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto 0 52%; 
+    float: none; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    background: rgb(0 0 0 / 35%); 
+    transition: all 0.3s ease-in;}
+
+main section#categorias-prodt article a:hover div.capa-oscura1,main section#categorias-prodt article a:hover div.capa-oscura2 { 
+    background: rgb(0 0 0 / 75%); 
+    transition: all 0.3s ease-in; 
+}
+
+
+/*Productos*/
+main section#ficha-producto { 
+    width: 100%; 
+    display: flex; 
+    margin-bottom: 50px; 
+}
+
+main section#ficha-producto article { 
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+main section#ficha-producto article figure { 
+    width: 100%; 
+    margin-right: 35px; 
+    height: 500px;
+}
+
+main section#ficha-producto article figure.animal1 { 
+    background: url('../img/cheesecake.jpeg') no-repeat bottom center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article figure.animal2 { 
+    background: url('../img/conejo.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article figure.personaje1 { 
+    background: url('../img/napoleon.jpeg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article figure.personaje2 { 
+    background: url('../img/mymelody.jpg') no-repeat center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article figure.comida1 { 
+    background: url('../img/tiramisu.jpeg') no-repeat  center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article figure.comida2 { 
+    background: url('../img/panfrances.jpg') no-repeat  center; 
+    background-size: cover; 
+}
+
+main section#ficha-producto article div#info-producto { 
+}
+
+main section#ficha-producto article div#info-producto h2 { 
+    font-size: 2.5em; 
+    font-family: 'Roboto Slab', serif;
+    color: rgb(150, 0, 25);
+    font-weight: bolder;
+    padding-top: 60px; 
+    margin-bottom: 10px; 
+    letter-spacing: 0.035em; 
+}
+
+main section#ficha-producto article div#info-producto p { 
+    margin-bottom: 20px; 
+    font-size: 1.5em; 
+    font-family: 'Roboto Slab', serif;
+    text-align: justify; 
+}
+
+main section#ficha-producto article div#info-producto h5 { 
+    margin-bottom: 25px; 
+    font-size: 1.5em; 
+    font-family: 'Roboto Slab', serif;
+}
+
+main section#ficha-producto article div#info-producto a { 
+    text-decoration: none; 
+    font-size: 1.125em; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500; 
+    color: #ffffff; 
+    background: #7e6969;
+    border-radius: 5px; 
+    padding: 20px 20px; 
+}
+
+main section#ficha-producto article div#info-producto a:hover { 
+    background: #a593b4; 
+    transition: all 0.3s ease-in; 
+}
+
+
+footer { 
+    width: 100%; 
+    height: 200px; 
+    text-align: center; 
+    background: url('../img/wpp.jpg') no-repeat center; 
+    background-size: cover; 
+    clear:both; 
+}
+
+footer article { 
+    width: 100%; 
+    height: 200px; 
+    background: rgb(0 0 0 / 45%); 
+}
+
+footer article div#superior-footer { 
+    padding-top: 70px; 
+    margin-bottom: 15px;}
+
+footer article div#superior-footer div.cajas-footer h6 { 
+    color: #ffffff; 
+    font-size: 1.5em; 
+    font-family: 'Roboto Slab', serif; 
+}    
+article div#superior-footer div.cajas-footer nav a { 
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+
+footer article div#superior-footer div.cajas-footer nav a i { 
+    font-size: 1em; 
+}
+
+footer article div#inferior-footer p { 
+    color: #ffffff; 
+    font-size: 1em; 
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900; 
+
+}
+
+/* Zona de Media Queries */
+
+
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+
+}
+
+
+@media only screen and (max-width: 999px){
+
+}
+
+
+@media only screen and (max-width: 899px){
+
+}
+
+
+@media only screen and (max-width: 699px){
+    main section#productos article a { 
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    main section#productos article.Animales a.animal1 {
+        background-position: initial;
+    }
+    main section#productos article.Animales a.animal2 {
+        background-position: initial;
+    }
+
+    main section#categorias article a {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    main section#categorias article a div.capa-oscura1,
+    main section#categorias article a div.capa-oscura2,
+    main section#categorias article a div.capa-oscura3{
+        width: 100%;
+        margin: 0px;
+    }
+
+    main section#categorias-prodt article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section#categorias-prodt article a{
+        width: 100%;
+    }
+
+    main section#categorias-prodt article a.caja1,
+    main section#categorias-prodt article a.caja2{
+        margin-bottom: 20px;
+        position: relative;
+    }
+    main section#categorias-prodt article a div.capa-oscura1,
+    main section#categorias-prodt article a div.capa-oscura2{
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+
+/* Móviles Grandes */
+@media only screen and (max-width: 499px){
+    
+}
+
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 399px){
+
+}
